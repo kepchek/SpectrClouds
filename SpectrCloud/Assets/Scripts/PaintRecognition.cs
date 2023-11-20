@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 public class PaintRecognition : MonoBehaviour
 {
     private ARTrackedImageManager arTrackedImageManager1;
@@ -23,7 +24,18 @@ public class PaintRecognition : MonoBehaviour
     {
         foreach(var trackedImage in args.added)
         {
-            Debug.Log(trackedImage.name);
+            Debug.Log(trackedImage.referenceImage.name);
+            switch(trackedImage.referenceImage.name)
+            {
+                case "Paint1":
+                    SceneManager.LoadScene(1);
+                break;
+                case "Paint2":
+                    SceneManager.LoadScene(2);
+                break;
+            }
         }
+
     }
+    
 }
