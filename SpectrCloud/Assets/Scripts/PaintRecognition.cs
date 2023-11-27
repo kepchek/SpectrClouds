@@ -33,6 +33,19 @@ public class PaintRecognition : MonoBehaviour
                 case "Paint2":
                     SceneManager.LoadScene(2);
                 break;
+                case "Paint3":
+                    SceneManager.LoadScene(3);
+                break;
+                case "Paint7":
+                    SceneManager.LoadScene(7);
+                break;
+                case "Paint5":
+                    SceneManager.LoadScene(5);
+                break;
+                case "Paint6":
+                    SceneManager.LoadScene(6);
+                break;
+                
             }
         }
 
