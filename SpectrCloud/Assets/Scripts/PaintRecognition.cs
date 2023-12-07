@@ -28,23 +28,33 @@ public class PaintRecognition : MonoBehaviour
             switch(trackedImage.referenceImage.name)
             {
                 case "Paint1":
-                    SceneManager.LoadScene(1);
+                    SceneManager.LoadScene("Rorshah1");
                 break;
                 case "Paint2":
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene("Paint2");
                 break;
-                case "Paint3":
-                    SceneManager.LoadScene(3);
-                break;
-                case "Paint7":
-                    SceneManager.LoadScene(7);
+                case "Paint4":
+                    SceneManager.LoadScene("Paint4");
                 break;
                 case "Paint5":
-                    SceneManager.LoadScene(5);
+                    SceneManager.LoadScene("Gif5");
                 break;
                 case "Paint6":
-                    SceneManager.LoadScene(6);
+                    SceneManager.LoadScene("Puzzle6");
                 break;
+                case "Paint7":
+                    SceneManager.LoadScene("Gif7");
+                break;
+                case "Paint8":
+                    SceneManager.LoadScene("Gif8");
+                break;
+                case "Paint9":
+                    SceneManager.LoadScene("FlappyBird9");
+                break;
+                case "Paint10":
+                    SceneManager.LoadScene("Gif10");
+                break;
+
                 
             }
         }

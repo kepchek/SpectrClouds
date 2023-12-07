@@ -45,7 +45,7 @@ MonoBehaviour:
       m_GuidHigh: 16123020621105537448
     m_Size: {x: 0.3, y: 0.15402564}
     m_SpecifySize: 1
-    m_Name: Paint3
+    m_Name: Paint4
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4769065969090765389
@@ -76,4 +76,34 @@ MonoBehaviour:
     m_Size: {x: 0.6, y: 0.2368306}
     m_SpecifySize: 0
     m_Name: Paint7
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4696944461244178782
+      m_GuidHigh: 5921832750626982807
+    m_SerializedTextureGuid:
+      m_GuidLow: 4541027254986674392
+      m_GuidHigh: 6666185733310438667
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Paint8
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5671940643800145447
+      m_GuidHigh: 12776574422421976207
+    m_SerializedTextureGuid:
+      m_GuidLow: 9305816900193389347
+      m_GuidHigh: 6654511267955754811
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Paint9
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5132372196257080869
+      m_GuidHigh: 17420814201962635169
+    m_SerializedTextureGuid:
+      m_GuidLow: 154420940811021639
+      m_GuidHigh: 8611575713813630779
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Paint10
     m_Texture: {fileID: 0}

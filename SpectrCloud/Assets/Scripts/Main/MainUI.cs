@@ -5,6 +5,10 @@ public class MainUI : MonoBehaviour
 {
     public void BackButton()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("HubScene");
+    }
+    public void PayButton()
+    {
+        Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     }
 }
