@@ -9,6 +9,6 @@ public class MainUI : MonoBehaviour
     }
     public void PayButton()
     {
-        Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        Application.OpenURL(Payment.LinkButtonPay);
     }
 }

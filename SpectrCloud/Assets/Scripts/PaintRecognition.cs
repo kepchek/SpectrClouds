@@ -28,7 +28,7 @@ public class PaintRecognition : MonoBehaviour
             switch(trackedImage.referenceImage.name)
             {
                 case "Paint1":
-                    SceneManager.LoadScene("Rorshah1");
+                    SceneManager.LoadScene(3);
                 break;
                 case "Paint2":
                     SceneManager.LoadScene("Paint2");
